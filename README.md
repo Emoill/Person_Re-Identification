@@ -24,7 +24,7 @@ The scope of this project encompasses the following key aspects:
 
 + **Method Evaluation:** The initial phase of this project is dedicated to evaluating various person re-identification methods. I will implement and test approaches like DeepSORT, StrongSort, and Siamese Networks using a diverse and labeled dataset that simulates real-world scenarios. My aim is to assess the performance of each method and understand their strengths and limitations.
 
-+ **Performance Metrics:** To objectively compare these methods, I will utilize a range of performance metrics such as identification accuracy, precision, and recall. These metrics will guide me in selecting the method that offers the highest accuracy while maintaining acceptable computational efficiency.
++ **Performance Metrics:** To objectively compare these methods, I will utilize a range of performance metrics such as identification accuracy, mINP (mean Inverse Negative Penalty), precision, and recall. These metrics will guide me in selecting the method that offers the highest accuracy while maintaining acceptable computational efficiency.
 
 + **Resource Considerations:** Beyond performance metrics, I will also assess the computational resources required by each method. Given the ever-increasing need for edge device deployment, I will evaluate the feasibility of running the selected method on hardware with limited computational capabilities, such as the Raspberry Pi.
 
