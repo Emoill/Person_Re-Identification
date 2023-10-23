@@ -70,9 +70,9 @@ This project is designed for versatility and innovation, with objectives continu
 
 To ensure a robust foundation for this project, a literature review was conducted. Two scientific papers have been meticulously examined to provide valuable insights into the topic at hand.
 
-[Deep Learning for Person Re-identification: A Survey and Outlook](https://arxiv.org/abs/2001.04193)
+[Deep Learning for Person Re-identification: A Survey and Outlook:](https://arxiv.org/abs/2001.04193)
 This paper offers an extensive exploration of the fundamental facets of person re-identification (Re-ID) and serves as a valuable reference for fostering a profound comprehension of this subject. The paper in focus delves into the dynamic realm of person re-identification (Re-ID), which is paramount within the realms of multi-camera surveillance and deep learning. The authors classify Re-ID into closed-world and open-world scenarios, placing a primary emphasis on the latter due to its practical relevance. This work conducts a thorough examination of the components and techniques employed in Re-ID, encompassing deep feature representation, metric learning, and ranking optimization. Additionally, it introduces a potent AGW baseline that demonstrates state-of-the-art or competitive results across twelve datasets. The paper also introduces a novel evaluation metric (mINP) for assessing the practical applicability of Re-ID systems. Furthermore, it elucidates significant unresolved challenges in the field, paving the way for further exploration in this ever-evolving domain.
 
-[Unsupervised Pre-training for Person Re-identification](https://arxiv.org/abs/2012.03753v2)
+[Unsupervised Pre-training for Person Re-identification:](https://arxiv.org/abs/2012.03753v2)
 This paper introduces "LUPerson" a substantial unlabeled person re-identification dataset. It pioneers unsupervised pre-training on this dataset, achieving state-of-the-art performance on key Re-ID datasets, with particular gains on smaller-scale and few-shot scenarios. Notably, this paper currently holds the top performance on the Market1501 dataset.
 
