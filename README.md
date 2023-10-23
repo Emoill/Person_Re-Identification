@@ -12,6 +12,8 @@ My work focuses on addressing a practical challenge: the continuous identificati
 
 Within this README, you'll find comprehensive details regarding my project's goals, methodologies, dataset considerations, and my strategic work plan.
 
+![REid Image](https://optisolprod.wpenginepowered.com/wp-content/uploads/2022/05/0_grjfwnzEhXkjZ8lD.gif)
+
 ## Project Details
 
 The primary objective of this project is to develop a robust and efficient system for person re-identification using deep learning techniques. Person re-identification, a fundamental task in computer vision and surveillance, involves recognizing and tracking individuals even when they momentarily leave the camera's field of view. I recognize that there are several deep learning methods available for this task, with some notable approaches being DeepSORT, StrongSort, and Siamese Networks. However, this project remains open to exploring and rigorously testing these methods to determine which one offers the best balance between performance and computational resources.
@@ -45,3 +47,32 @@ The scope of this project encompasses the following key aspects:
 For this project, I will be utilizing the Market-1501 Dataset. The Market-1501 Dataset is a widely recognized benchmark for person re-identification tasks. It consists of a substantial collection of images captured in a real-world scenario, featuring multiple camera views. This dataset provides a diverse and challenging set of images, making it an ideal choice for training and evaluating person re-identification models. It includes a rich variety of clothing, lighting conditions, and poses, reflecting the complexity of real-world surveillance environments. The Market-1501 Dataset will serve as the foundation for training and testing the deep learning models in this project.
 
 link to the [Market-1501 Dataset](https://zheng-lab.cecs.anu.edu.au/Project/project_reid.html)
+
+LUPerson boasts a remarkable scale, containing over 4 million images representing in excess of 200,000 unique identities. While its size and diversity make it an enticing choice for research, it's important to note that due to its sheer magnitude, it may be less practical for projects with resource constraints. 
+
+link to the [LUPerson](https://github.com/DengpanFu/LUPerson)
+
+### Objectives
+
+This project encompasses several critical objectives that span a wide range of applications:
+
++ **Market Research and Analysis:** One of the primary goals is to conduct comprehensive market research to gain valuable insights. This includes capturing and analyzing data, such as the count of different individuals entering a building daily. Such information can offer valuable insights to businesses and public establishments, helping them better understand customer flow and optimize marketing strategies.
+
++ **Surveillance and Security:** Another key objective is to enhance surveillance and security. Implementing reliable real-time person recognition and tracking can significantly enhance the efficiency of security systems. This is especially relevant in security-critical environments such as airports, train stations, and large event venues.
+
++ **Additional Applications:** Beyond the aforementioned objectives, the opportunities arising from this project are diverse. This includes applications in areas such as behavior analysis, traffic management, access control, and much more. The ability to identify and track individuals in various scenarios can revolutionize numerous industries and application fields.
+
+This project is designed for versatility and innovation, with objectives continuously adjusted to meet the evolving requirements and opportunities that arise during the research and development process.
+
+## Research
+
+### Literature Review
+
+To ensure a robust foundation for this project, a literature review was conducted. Two scientific papers have been meticulously examined to provide valuable insights into the topic at hand.
+
+[Deep Learning for Person Re-identification: A Survey and Outlook](https://arxiv.org/abs/2001.04193)
+This paper offers an extensive exploration of the fundamental facets of person re-identification (Re-ID) and serves as a valuable reference for fostering a profound comprehension of this subject. The paper in focus delves into the dynamic realm of person re-identification (Re-ID), which is paramount within the realms of multi-camera surveillance and deep learning. The authors classify Re-ID into closed-world and open-world scenarios, placing a primary emphasis on the latter due to its practical relevance. This work conducts a thorough examination of the components and techniques employed in Re-ID, encompassing deep feature representation, metric learning, and ranking optimization. Additionally, it introduces a potent AGW baseline that demonstrates state-of-the-art or competitive results across twelve datasets. The paper also introduces a novel evaluation metric (mINP) for assessing the practical applicability of Re-ID systems. Furthermore, it elucidates significant unresolved challenges in the field, paving the way for further exploration in this ever-evolving domain.
+
+[Unsupervised Pre-training for Person Re-identification](https://arxiv.org/abs/2012.03753v2)
+This paper introduces "LUPerson" a substantial unlabeled person re-identification dataset. It pioneers unsupervised pre-training on this dataset, achieving state-of-the-art performance on key Re-ID datasets, with particular gains on smaller-scale and few-shot scenarios. Notably, this paper currently holds the top performance on the Market1501 dataset.
+
