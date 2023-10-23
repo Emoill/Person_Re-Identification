@@ -36,7 +36,7 @@ The scope of this project encompasses the following key aspects:
 
 ### Project Approach
 
-+ **Method Evaluation Phase:** In the project's initial phase, I will meticulously implement and rigorously test DeepSORT, StrongSort, and Siamese Networks using a labeled dataset. Real-world scenarios will be simulated to assess the methods' performance across a variety of challenging conditions, enabling me to grasp their relative advantages and shortcomings.
++ **Method Evaluation Phase:**  I will test different Method like DeepSORT, StrongSort and Siamese Networks using a labeled dataset. Real-world scenarios will be simulated to assess the methods' performance across a variety of challenging conditions, enabling me to grasp their relative advantages and shortcomings.
 
 + **Performance and Resource Assessment:** Building on the evaluation phase, I will conduct a comprehensive analysis of performance metrics and computational resource requirements for each method. These insights will provide a foundation for selecting the method that strikes the optimal balance between accuracy and computational efficiency.
 
