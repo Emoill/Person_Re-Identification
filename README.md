@@ -12,7 +12,7 @@ My work focuses on addressing a practical challenge: the continuous identificati
 
 Within this README, you'll find comprehensive details regarding my project's goals, methodologies, dataset considerations, and my strategic work plan.
 
-![REid Image](https://optisolprod.wpenginepowered.com/wp-content/uploads/2022/05/0_grjfwnzEhXkjZ8lD.gif)
+![REid Image](/Person_REid_sample.gif)
 
 ## Project Details
 
