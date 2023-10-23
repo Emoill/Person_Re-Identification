@@ -18,7 +18,7 @@ Within this README, you'll find comprehensive details regarding my project's goa
 
 The primary objective of this project is to develop a robust and efficient system for person re-identification using deep learning techniques. Person re-identification, a fundamental task in computer vision and surveillance, involves recognizing and tracking individuals even when they momentarily leave the camera's field of view. I recognize that there are several deep learning methods available for this task, with some notable approaches being DeepSORT, StrongSort, and Siamese Networks. However, this project remains open to exploring and rigorously testing these methods to determine which one offers the best balance between performance and computational resources.
 
-### Scope
+### Scope and Objectives
 
 The scope of this project encompasses the following key aspects:
 
@@ -52,7 +52,7 @@ LUPerson boasts a remarkable scale, containing over 4 million images representin
 
 link to the [LUPerson Dataset](https://github.com/DengpanFu/LUPerson)
 
-### Objectives
+### Goals
 
 This project encompasses several critical objectives that span a wide range of applications:
 
