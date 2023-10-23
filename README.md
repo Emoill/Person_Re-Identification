@@ -76,3 +76,34 @@ This paper offers an extensive exploration of the fundamental facets of person r
 [Unsupervised Pre-training for Person Re-identification:](https://arxiv.org/abs/2012.03753v2)
 This paper introduces "LUPerson" a substantial unlabeled person re-identification dataset. It pioneers unsupervised pre-training on this dataset, achieving state-of-the-art performance on key Re-ID datasets, with particular gains on smaller-scale and few-shot scenarios. Notably, this paper currently holds the top performance on the Market1501 dataset.
 
+## Work Breakdown structure
+
+### Dataset Collection (1 days)
++ Research and select the dataset (0.5 day)
++ Quality control and dataset cleaning (0.5 day)
+
+### Designing and Building the Network (5 days)
++ Research network architectures suitable for Re-ID (1 day)
++ Network design and architecture planning (1 days)
++ Implementation of the chosen network architecture (2 days)
++ Integration of pre-trained models, if applicable (1 day)
+
+### Training and Fine-Tuning the Network (4 days)
++ Training the network (2 days)
++ Hyperparameter tuning and optimization (2 days)
++ Model fine-tuning based on validation results (1 day)
+
+### Building an Application to Present Results (1 days)
++ Design and development of the application (1 days)
++ Integration with the trained model (1 day)
+
+### Writing the Final Report (4 days)
++ Preparing the report structure and outline (0.5 day)
++ Literature review and research methodology (1 day)
++ Results and analysis (1.5 days)
++ Conclusion and discussion (1 day)
+
+### Preparing the Presentation of Your Work (2 days)
++ Preparing the presentation outline and structure (0.5 day)
++ Creating presentation slides (1 days)
++ Rehearsing and refining the presentation (0.5 day)
