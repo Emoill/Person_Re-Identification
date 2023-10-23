@@ -18,7 +18,7 @@ Within this README, you'll find comprehensive details regarding my project's goa
 
 The primary objective of this project is to develop a robust and efficient system for person re-identification using deep learning techniques. Person re-identification, a fundamental task in computer vision and surveillance, involves recognizing and tracking individuals even when they momentarily leave the camera's field of view. I recognize that there are several deep learning methods available for this task, with some notable approaches being DeepSORT, StrongSort, and Siamese Networks. However, this project remains open to exploring and rigorously testing these methods to determine which one offers the best balance between performance and computational resources.
 
-### Scope and Objectives
+### Scope
 
 The scope of this project encompasses the following key aspects:
 
@@ -48,9 +48,9 @@ For this project, I will be utilizing the Market-1501 Dataset. The Market-1501 D
 
 link to the [Market-1501 Dataset](https://zheng-lab.cecs.anu.edu.au/Project/project_reid.html)
 
-LUPerson boasts a remarkable scale, containing over 4 million images representing in excess of 200,000 unique identities. While its size and diversity make it an enticing choice for research, it's important to note that due to its sheer magnitude, it may be less practical for projects with resource constraints. 
+LUPerson boasts a remarkable scale, containing over 4 million images representing in excess of 200,000 unique identities. While its size and diversity make it an enticing choice for research, it's important to note that due to its sheer magnitude, it may be less practical for this projects with resource constraints. 
 
-link to the [LUPerson](https://github.com/DengpanFu/LUPerson)
+link to the [LUPerson Dataset](https://github.com/DengpanFu/LUPerson)
 
 ### Objectives
 
