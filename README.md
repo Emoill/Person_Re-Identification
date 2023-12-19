@@ -79,19 +79,19 @@ This paper introduces "LUPerson" a substantial unlabeled person re-identificatio
 ## Work Breakdown structure
 
 ### Dataset Collection (1 days)
-+ Research and select the dataset (0.5 day)
-+ Quality control and dataset cleaning (0.5 day)
++ ~~ Research and select the dataset (0.5 day) ~~
++ ~~ Quality control and dataset cleaning (0.5 day) ~~
 
 ### Designing and Building the Network (5 days)
-+ Research network architectures suitable for Re-ID (1 day)
-+ Network design and architecture planning (1 days)
-+ Implementation of the chosen network architecture (2 days)
-+ Integration of pre-trained models, if applicable (1 day)
++ ~~ Research network architectures suitable for Re-ID (1 day) ~~
++ ~~ Network design and architecture planning (1 days) ~~
++ ~~ Implementation of the chosen network architecture (2 days) ~~
++ ~~ Integration of pre-trained models, if applicable (1 day) ~~
 
 ### Training and Fine-Tuning the Network (4 days)
-+ Training the network (2 days)
-+ Hyperparameter tuning and optimization (2 days)
-+ Model fine-tuning based on validation results (1 day)
++ ~~ Training the network (2 days)
++ ~~ Hyperparameter tuning and optimization (2 days)
++ ~~ Model fine-tuning based on validation results (1 day)
 
 ### Building an Application to Present Results (1 days)
 + Design and development of the application (1 days)
@@ -107,3 +107,35 @@ This paper introduces "LUPerson" a substantial unlabeled person re-identificatio
 + Preparing the presentation outline and structure (0.5 day)
 + Creating presentation slides (1 days)
 + Rehearsing and refining the presentation (0.5 day)
+
+## Milestone 2 
+
+As part of a two-step approach in this project, the initial phase involved the implementation of person detection utilizing a pre-trained Faster R-CNN with Inception ResNet v2 on the COCO dataset. In the second step, the focus shifts towards the intricate task of person re-identification. This step involves the utilization of Siamese Networks, known for their efficacy in learning similarity metrics between images. The goal is to seamlessly recognize and track individuals across varying camera perspectives, thereby completing the comprehensive process of person recognition in dynamic environments.
+
+# Step 1: Person Detection
+
+In the initial phase of this project, the focus was on implementing robust person detection, leveraging a pre-trained model for efficiency. The chosen model, Faster R-CNN with Inception ResNet v2, stands out as a formidable solution with a commendable Mean Average Precision (mAP) of 37.1 on the COCO 2017 test set. This performance has been validated through its application to self-captured video footage, where it consistently and reliably identifies individuals.
+
+One notable advantage of this pre-trained model lies in its optimal balance between size and performance. Given the intention to deploy the system on resource-constrained devices such as the Raspberry Pi, the model's efficiency becomes paramount. The compact size of the Faster R-CNN with Inception ResNet v2 contributes to its suitability for edge device deployment without compromising on detection accuracy.
+
+# Step 2: Siamese Networks
+
+The exploration of Step 2 marked a significant shift in the project's trajectory, delving into the realm of unsupervised learning for person re-identification. Opting for a Siamese Network approach, I undertook the task of constructing the network from the ground up, affording me complete control over its various layers for fine-tuning. The entire implementation, including training and testing, is detailed in the Siamese_Network.ipynb notebook.
+
+The process of building the Siamese Network proved to be a challenging yet enriching endeavor. As a departure from supervised learning, I experimented extensively with different embeddings and architectures, including variations such as VGG-16, ResNet50, and MobileNetV2. Additionally, various distance functions, such as Euclidean and L1 Distance, were explored to discern the most effective approach for learning similarity metrics between images.
+
+For evaluation, I opted for key metrics including Accuracy, Precision, and Recall. These metrics provide valuable insights into the distribution of predictions in this classification problem. Notably, during training in a Colab environment, the model achieved impressive scores, with Precision and Recall surpassing 0.98 on a dataset of over 300 image pairs.
+
+However, a notable challenge emerged during the transition from Colab to local execution on my PC. Despite extensive efforts to troubleshoot, the model experienced a decrease in accuracy, with Recall at 0.7188, Precision at 0.6571, and Accuracy at 0.6300. Investigating this discrepancy remains an ongoing process, as I continue to explore potential factors impacting the model's performance during local execution.
+
+# Outlook
+
+The ongoing challenge of a substantial loss in model accuracy during the transition from Colab to local execution remains a focal point for investigation and resolution. Efforts will persist in understanding and addressing the factors contributing to this discrepancy, ensuring the model maintains its high performance across diverse execution environments.
+
+Looking ahead, the next crucial step involves the conversion of the trained model into a TensorFlow Lite (TF Lite) format. This transformation is pivotal for deploying the model on resource-constrained devices like the Raspberry Pi. The TF Lite model will undergo rigorous testing to assess its performance in real-world scenarios, aligning with the project's overarching goal of achieving real-time person recognition on edge devices.
+
+Continued fine-tuning, optimization, and exploration of potential enhancements will be integral to the project's evolution. The journey includes addressing challenges, refining methodologies, and leveraging insights gained from both successful and challenging aspects of the implementation.
+
+
+
+
