@@ -136,6 +136,38 @@ Looking ahead, the next crucial step involves the conversion of the trained mode
 
 Continued fine-tuning, optimization, and exploration of potential enhancements will be integral to the project's evolution. The journey includes addressing challenges, refining methodologies, and leveraging insights gained from both successful and challenging aspects of the implementation.
 
+## Milestone 3 
+
+At the third milestone of the project, only the deployment on the Raspberry Pi remained pending. It was discovered that the model sizes were unsuitable for real-time visualization. Consequently, I switched the object detection model to a smaller EfficientNet model, and for the Siamese network, I reduced the input layer to 64 x 64. This led to a significant reduction in the overall model size, and I retrained it. With the new models in place, a real-time solution is now achievable with a delay of only 1.4 seconds.
+
+## Demo
+
+## Deployment on Raspberry Pi:
+
+### Requirements:
+- Raspberry Pi device
+
+### Steps:
+1. Ensure that the necessary libraries and dependencies are installed on your Raspberry Pi. `requirements.txt`
+
+
+### Real-Time Experience:
+- Run the application `live_camera_annotation.py` on the Raspberry Pi to experience real-time object detection with a delay of 1 seconds.
+
+---
+
+## Testing Model Accuracy on a Computer:
+
+### Requirements:
+- Computer with Python installed
+- Install `requirements.txt`
+- Provided test video file: `.Video\test_video2.mp4`
+
+### Testing Accuracy:
+1. Utilize the `annotate_video.py` Python script on your computer to annotate the provided test video.
+2. Examine the results in the `annotated_frame` folder.
+
+---
 
 
 
